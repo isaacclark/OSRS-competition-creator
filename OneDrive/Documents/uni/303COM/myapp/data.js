@@ -1,0 +1,23 @@
+var namelist = 'Catherby,Resume,The Clinic,Fe Combat 3,Wished,Get Burried,Warney,Dyingseeds,Tim Riggins,Redfx,Dps,Pyromancer,Exp,Skil E Chill,Flymayfian,Milo,Examine Egg,'
+    namelist += 'Lmk,Fleeb,Bell N Book,Onka,Iggy Hazzard,Tufflithium,Dream Wasted,Niedermayer,Orangekight3,Kozmic Blues,Im June,Zat,Lif,Hoorayforjay,Novelty 10hp,Usn Skiller,Galanoth,'
+    namelist += 'Dlckbut,Hollowfied,Joshie,Skiller Lol,Great Smoky,Dans Skiller,Fly Lite,Yay Skillzs,Rezs,Usbc,We The North,Bimy,Wbz,K30,Examinee,Kush Shmoke,Xwv,Zskills,'
+    namelist += 'Yakety,Skillz Code,Restinpussy,Warm Cookiez,Kokismaster,Swltch Blade,Heoux,Drchubbz,Level3porno,Ciili,Lililililil,Matthie70 1,Exrion,Lvl3 Ankou,Magic Booms,Gezus,Mrphy,'
+    namelist += 'Lisavenged,Uyp,Twinkle Fox,Striving On,Whiskysnob,Willow Seed,Llooyd Jr,Specialketa,Znew Zealand,And We Skill,Dawn The Pk,Xvz,Captkenpachi,Cannablox,38k,'
+    namelist += 'Herbiboar,Angelofhealz,Buks,Chad Lvl3,Liegnitz,Ye Ol,Hey Jesse,Rs Skiller,Labors,3rc,Branfish,Hentai Yeet,Eivissa,Die Choking,Embrace Thc,Zebbs Crap,'
+    namelist += 'Not 2 Swift,Adroit Anon,Dr Skills,Labruvaun,Vonzorn,Ultime,Love Virus,Chewy Eh,Dope Skills,520,Prayin Skill,6926,Nerf Fungi,'
+    namelist += 'L3 Skilling,Daddi,Battleflycom,Skiller Pure,Deep Jungle,Hp 10vecraft,Zkymz,Inferior Fe,Llywelyn,Swindleshark,Wscu,Myskill,Lordimachta,Colossal,'
+    namelist += 'Mieshuorah,Dormir,Sirswaggyt,Pummirs,06 10,10 Over 10,4k4,Agg Skills,Amiirz,Arbor,B A Phreak,Basket 07,Bvcket,Centroid,Combat Three,Cousin Subs,Croqueta,Dunes,'
+    namelist += 'Dzekobosnia,E H K,Fashionova,Full Energy,Horse Legend,Huro,Im Only,J S R F,Jacob Z,Kittie,Lamitas,Locked Exp,Lookitslight,'
+    namelist += 'Lord Tyric,Lostmycheese,Lv3 Myth,Lvl3 4me,Lvl3 Stud,Maksymec,My Large Rod,Newsletter,No Ur,Os Vegan,Rdawggg,Riceandsoup,Spruce Tree,Stolen Hex,Straightedge,'
+    namelist += 'Trouts,Tsyque,Turmortal,Vi Nn Y,W0w A Lv 3,Waivker,Waren,White Elk,Xzrecolz,Yx,Am I Ty,Mr City,Ham Member,Qeeq,Scarf,Skill 4 Life,Skilling Pog,'
+    namelist += 'Icepick Uk,Geaux Krazy,Im A Unicorn,Its Joshy,Lindeyn,Dead End,Seed Vault,Morexpthanu,Peter Pax,My Memories,Whiz Euclid,Lirpa,'
+    namelist += 'C O R T E S,Docsorders,Twocoldones,99hp Pure,Maxinn,Beefboy,Verbinate,Godzwarrior6,Birch Mek,'
+    namelist += 'Nanite,Arvou,Hampton,Sunni,Dig,Vdb,Akes,Mole Killa69,9qs,A2b Pdrohx69,B Unknown,Ben Klock,Bert Is Fat,'
+    namelist += 'Blueno,Ceep,Clarified,Fertile Land,First Stage,Firz,Fu Endless,Make X,Nerveus,Matty Stacks,Save Money,Ulew,Vastory,Vivids Solo,Yougotapurdy,'
+    namelist += 'Airsofter,Bad Deeds,Boellis,Boyog,Cleclerc,Dugsie,Fetty Skill,H Y P H E N,Iced Skillz,Iohp,Iron Fumei,Itsloyal,Jasnah,Lohikiusaus,'
+    namelist += 'Manibusan,Neum,Noud Alt,Plot,Quatro,Rs3 Is P2w,Skill 4th,Skill Ritely,Sneezus,So Daddy,Unser Star,Vilbergi,Anchovies,B0rn F0r Exp,Baseic,Coelurus,'
+    namelist += 'Coffee 1st,Doctor Merp,Fis,H A M Member,Ironfyr3,Islayu50,Miretta,Nice Tiddies,Pet Heron,Rij,Shady Miner,Shiny Ores,Shotofvodka,Smitty Guy,'
+    namelist += 'Ten Life,Xilo Rs,Samsungstore,S Ensi,Lvl 3 Toad,Stackin 99s,Lucksmithc,Pain Pancake,Sklllert,Ryceps,Shalibot,Cb Phobia'
+ 
+module.exports = namelist.split(',');
+
