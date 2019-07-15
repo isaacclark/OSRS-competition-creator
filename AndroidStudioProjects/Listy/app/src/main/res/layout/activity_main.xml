@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shopping_List">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="My List"
+        android:textAlignment="center"
+        android:textSize="64dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/gglBtn"
+        android:layout_weight="1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Shops near you"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="save" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/buttonNav"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick= "save"
+            android:text="Add item" />
+
+        <Button
+            android:id="@+id/remBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick= "save"
+            android:text="Remove item" />
+
+        <Button
+            android:id="@+id/clrBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="save"
+            android:text="Clear List" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonNav"
+        android:layout_below="@id/textView1"
+        android:textAlignment="center"
+        android:textSize="32dp">
+
+    </ListView>
+
+</RelativeLayout>
+
