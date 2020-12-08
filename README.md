@@ -1,5 +1,5 @@
-# 303COM
-303COM research program
+# OSRS-competition-creator
+OSRS-competition-creator research program
 
 Research the connection between competition and activity in the game of oldschool runescape.
 
